@@ -8,7 +8,7 @@ import  "simplelightbox/dist/simple-lightbox.min.css";
 
 // Change code below this line
 
-console.log(galleryItems);
+console.log(galleryItems1);
 const gallary = document.querySelector('.gallery')
 const imageCollection = imgCollectionCreate(galleryItems)
 
