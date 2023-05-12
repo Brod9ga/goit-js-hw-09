@@ -3,7 +3,7 @@
     const startBtn= document.querySelector('[data-start]')
     const stopBtn= document.querySelector('[data-stop]')
 
-// console.log(refs.startBtn)
+
 
 
 function getRandomHexColor() {
