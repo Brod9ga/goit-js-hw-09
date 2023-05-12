@@ -11,16 +11,14 @@ function getRandomHexColor() {
   }
   
  startBtn.addEventListener('click', ()=>{
-     interval = setInterval(()=>
-        {document.body.style.backgroundColor = getRandomHexColor()}, 1000
-    )
+    intervalId = setInterval(() => {document.body.style.backgroundColor = getRandomHexColor()}, 1000)
     
     startBtn.disabled = true
     stopBtn.disabled = false
  })
 
  stopBtn.addEventListener('click', ()=>{
-    clearInterval(interval)
+    clearInterval(intervalId)
     startBtn.disabled = false
     stopBtn.disabled = true 
  })
