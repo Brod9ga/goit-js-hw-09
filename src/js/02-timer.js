@@ -8,6 +8,7 @@ const day = document.querySelector('[data-days]')
 const hour = document.querySelector('[data-hours]')
 const min = document.querySelector('[data-minutes]')
 const sec = document.querySelector('[data-seconds]')
+let intervalIdTimer
 // console.log(inputEl)
 startBtn.addEventListener('click', ()=>{runTimer()})
 
